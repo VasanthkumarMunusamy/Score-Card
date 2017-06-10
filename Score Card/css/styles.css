@@ -1,0 +1,35 @@
+body{background-color:#EEEEEE; font-family:Helvetica;}
+
+#leaderB{left:50px;right:100px;color:blue}
+table{color:black;}
+#scoretable{border-style:none;border-width:0.5px;border-color:black;position:relative;}
+#Scoretable{}
+tr{height:60px;color:black;}
+td{font-family: Helvetica,Arial; color:black;padding-left:0px;text-align:center;padding:1px;padding-top:15px;}
+h1{font-size:40px;}
+.sno{width:50px;}
+.name{width:800px;padding-top:12px;text-align:left;padding-left:50px;}
+.pts{width:80px;}
+.plusten{width:60px;padding-top:2px;display:show;}
+.plusfive{width:60px;padding-top:2px;display:show;}
+.plusone{width:60px;padding-top:2px;display:show;}
+.minusten{width:60px;padding-top:2px;display:show;}
+.minusfive{width:60px;padding-top:2px;display:show;}
+.minusone{width:60px;padding-top:2px;display:show;}
+.plustenbutton{height:50px;width:50px;background-color:#000000;color:#FFFFFF;font-size:18px;}
+.plusfivebutton{height:50px;width:50px;background-color:#000000;color:#FFFFFF;font-size:18px;}
+.plusonebutton{height:50px;width:50px;background-color:#000000;color:#FFFFFF;font-size:18px;}
+.minustenbutton{height:50px;width:50px;background-color:#000000;color:#FFFFFF;font-size:18px;}
+.minusfivebutton{height:50px;width:50px;background-color:#000000;color:#FFFFFF;font-size:18px;}
+.minusonebutton{height:50px;width:50px;background-color:#000000;color:#FFFFFF;font-size:18px;}
+.otherbuttons{background-color:black;font-family:helvetica;color:#FFFFFF;font-size:20px;border-radius:10px;height:60px;width:150px;border:4px solid white;}
+#id2{width:300px;background-color:black;padding:10px;color:white;border-radius:5px;margin-left:40px;}
+.id1{border-radius:5px;height:30px;width:200px;border:3px solid black;margin-left:10px;}
+/*#namesarea{background-color:#ff898f;border-radius:7px;}*/
+
+#row1{background-color:white;}
+#row2{background-color:white;}
+#row3{background-color:white;}
+#row4{background-color:white;}
+#row5{background-color:white;}
+#row6{background-color:white;}

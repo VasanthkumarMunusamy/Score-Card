@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>Score Card</title>
+<link rel="Stylesheet" href="css/styles.css"> 
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/scoremaster.js"></script>
+</head>
+
+<body>
+
+<div>
+<h1 id="quizName" style="color:white;padding:20px;margin:20px;background-color:black;border:20px solid black;border-radius:5px;text-align:center"></h1>
+</div>
+
+</div>
+<div id="scoretable">
+<br/>
+<br/>
+<table id= "Scoretable">
+	<tr id="row1">
+		<td  class="minusten" id="row1minusten"><input id="row1minustenbutton" type="button" class="minustenbutton" value="-10"></input></td>
+		<td  class="minusfive" id="row1minusfive"><input id="row1minusfivebutton" type="button" class="minusfivebutton" value="-5"></input></td>
+		<td  class="minusone" id="row1minusone"><input id="row1minusonebutton" type="button" class="minusonebutton" value="-1"></input></td>
+		<td  class= "sno" id="row1sno"><h3>1</h3></td>
+		<td  class="name" id="row1name"><h2 id="team1"></h2></td>
+		<td  class="pts" id="row1pts" value="0"><h2 id="row1ptsH">0</h2></td>
+		<td  class="plusten" id="row1plusten"><input id="row1plustenbutton" type="button" class="plustenbutton" value="+10"></input></td>
+		<td  class="plusfive" id="row1plusfive"><input id="row1plusfivebutton" type="button" class="plusfivebutton" value="+5"></input></td>
+		<td  class="plusone" id="row1plusone"><input id="row1plusonebutton" type="button" class="plusonebutton" value="+1"></input></td>
+		
+	</tr>
+	<tr id="row2">
+		<td  class="minusten" id="row2minusten"><input id="row2minustenbutton" type="button" class="minustenbutton" value="-10"></input></td>
+		<td  class="minusfive" id="row2minusfive"><input id="row2minusfivebutton" type="button" class="minusfivebutton" value="-5"></input></td>
+		<td  class="minusone" id="row2minusone"><input id="row2minusonebutton" type="button" class="minusonebutton" value="-1"></input></td>
+		<td  class= "sno" id="row2sno"><h3>2</h3></td>
+		<td  class="name" id="row2name"><h2 id="team2"></h2></td>
+		<td  class="pts" id="row2pts"><h2 id="row2ptsH">0</h2></td>
+		<td  class="plusten" id="row2plusten"><input id="row2plustenbutton" type="button" class="plustenbutton" value="+10"></input></td>
+		<td  class="plusfive" id="row2plusfive"><input id="row2plusfivebutton" type="button" class="plusfivebutton" value="+5"></input></td>
+		<td  class="plusone" id="row2plusone"><input id="row2plusonebutton" type="button" class="plusonebutton" value="+1"></input></td>
+		
+	</tr>
+	<tr id="row3">
+		<td  class="minusten" id="row3minusten"><input id="row3minustenbutton" type="button" class="minustenbutton" value="-10"></input></td>
+		<td  class="minusfive" id="row3minusfive"><input id="row3minusfivebutton" type="button" class="minusfivebutton" value="-5"></input></td>
+		<td  class="minusone" id="row3minusone"><input id="row3minusonebutton" type="button" class="minusonebutton" value="-1"></input></td>
+		<td  class= "sno" id="row3sno"><h3>3</h3></td>
+		<td  class="name" id="row3name"><h2 id="team3"></h2></td>
+		<td  class="pts" id="row3pts"><h2 id="row3ptsH">0</h2></td>
+		<td  class="plusten" id="row3plusten"><input id="row3plustenbutton" type="button" class="plustenbutton" value="+10"></input></td>
+		<td  class="plusfive" id="row3plusfive"><input id="row3plusfivebutton" type="button" class="plusfivebutton" value="+5"></input></td>
+		<td  class="plusone" id="row3plusone"><input id="row3plusonebutton" type="button" class="plusonebutton" value="+1"></input></td>
+		
+	</tr>
+	
+	<tr id="row4">
+		<td  class="minusten" id="row4minusten"><input id="row4minustenbutton" type="button" class="minustenbutton" value="-10"></input></td>
+		<td  class="minusfive" id="row4minusfive"><input id="row4minusfivebutton" type="button" class="minusfivebutton" value="-5"></input></td>
+		<td  class="minusone" id="row4minusone"><input id="row4minusonebutton" type="button" class="minusonebutton" value="-1"></input></td>
+		<td  class= "sno" id="row4sno"><h3>4</h3></td>
+		<td  class="name" id="row4name"><h2 id="team4"></h2></td>
+		<td  class="pts" id="row4pts"><h2 id="row4ptsH">0</h2></td>
+		<td  class="plusten" id="row4plusten"><input id="row4plustenbutton" type="button" class="plustenbutton" value="+10"></input></td>
+		<td  class="plusfive" id="row4plusfive"><input id="row4plusfivebutton" type="button" class="plusfivebutton" value="+5"></input></td>
+		<td  class="plusone" id="row4plusone"><input id="row4plusonebutton" type="button" class="plusonebutton" value="+1"></input></td>
+		
+	</tr>
+	
+	<tr id="row5">
+		<td  class="minusten" id="row5minusten"><input id="row5minustenbutton" type="button" class="minustenbutton" value="-10"></input></td>
+		<td  class="minusfive" id="row5minusfive"><input id="row5minusfivebutton" type="button" class="minusfivebutton" value="-5"></input></td>
+		<td  class="minusone" id="row5minusone"><input id="row5minusonebutton" type="button" class="minusonebutton" value="-1"></input></td>
+		<td  class= "sno" id="row5sno"><h3>5</h3></td>
+		<td  class="name" id="row5name"><h2 id="team5"></h2></td>
+		<td  class="pts" id="row5pts"><h2 id="row5ptsH">0</h2></td>
+		<td  class="plusten" id="row5plusten"><input id="row5plustenbutton" type="button" class="plustenbutton" value="+10"></input></td>
+		<td  class="plusfive" id="row5plusfive"><input id="row5plusfivebutton" type="button" class="plusfivebutton" value="+5"></input></td>
+		<td  class="plusone" id="row5plusone"><input id="row5plusonebutton" type="button" class="plusonebutton" value="+1"></input></td>
+		
+	</tr>
+	
+	<tr id="row6">
+		<td  class="minusten" id="row6minusten"><input id="row6minustenbutton" type="button" class="minustenbutton" value="-10"></input></td>
+		<td  class="minusfive" id="row6minusfive"><input id="row6minusfivebutton" type="button" class="minusfivebutton" value="-5"></input></td>
+		<td  class="minusone" id="row6minusone"><input id="row6minusonebutton" type="button" class="minusonebutton" value="-1"></input></td>
+		<td  class= "sno" id="row6sno"><h3>6</h3></td>
+		<td  class="name" id="row6name"><h2 id="team6"></h2></td>
+		<td  class="pts" id="row6pts"><h2 id="row6ptsH">0</h2></td>
+		<td  class="plusten" id="row6plusten"><input id="row6plustenbutton"type="button" class="plustenbutton" value="+10"></input></td>
+		<td  class="plusfive" id="row6plusfive"><input id="row6plusfivebutton" type="button" class="plusfivebutton" value="+5"></input></td>
+		<td  class="plusone" id="row6plusone"><input id="row6plusonebutton" type="button" class="plusonebutton" value="+1"></input></td>
+		
+	</tr>
+</table>
+</div>
+<br/>
+<br/>
+<div id="otherButtons">
+	<div id="hidebutton">
+	<input type="button" id="hideScoreButton" class="otherbuttons" value="Show Table"></div><br/><br/>
+	</div>
+	<div id="namesarea">
+	<b id="id2" style="margin-left:0px;">Quiz Name</b> <input type="text" class="id1" id="quiznametext" ><br/><br/>
+	
+	<b id="id2" style="margin-left:0px;">Team 1</b><input type="text" class="id1" id="team1text">
+	<b id="id2">Team 2</b><input type="text" class="id1" id="team2text">
+	<b id="id2">Team 3</b><input type="text" class="id1" id="team3text">
+	<b id="id2">Team 4</b><input type="text" class="id1" id="team4text"><br/><br/>
+	<b id="id2" style="margin-left:0px;">Team 5</b><input type="text" class="id1" id="team5text">
+	<b id="id2">Team 6</b><input type="text" class="id1" id="team6text"><br/><br/>
+	<input type="button" class="otherbuttons" id="quiznamebutton" value="enter">
+	<input type="button" class="otherbuttons" id="hideotherbuttons" value="done">
+	</div>
+
+
+</body> 
+</html>
